@@ -1,0 +1,232 @@
+
+> Task :compileJava
+
+> Task :processResources NO-SOURCE
+> Task :classes
+/Users/pratisharma/personalIdea/Kafka-Experimentation/src/main/java/KafkaConsumerApp.java:15: warning: ArrayUtil is internal proprietary API and may be removed in a future release
+import sun.security.util.ArrayUtil;
+                        ^
+Note: /Users/pratisharma/personalIdea/Kafka-Experimentation/src/main/java/KafkaConsumerApp.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+> Task :KafkaConsumerApp.main()
+Starting consumer Consumer 0
+Starting consumer Consumer 1
+Starting consumer Consumer 2
+Starting consumer Consumer 3
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Consumer 2: topic=test_topic_1 partition=2 value=Hello_48 offset=306
+Consumer 2
+Consumer 0
+Consumer 1
+Consumer 3
+Consumer 0: topic=test_topic_1 partition=0 value=Hello_49 offset=460
+Consumer 0
+Consumer 2
+Consumer 1
+Consumer 3
+Consumer 2: topic=test_topic_1 partition=2 value=Hello_50 offset=307
+Consumer 2
+Consumer 0
+Consumer 1
+Consumer 3
+Consumer 1: topic=test_topic_1 partition=1 value=Hello_51 offset=482
+Consumer 1
+Consumer 2
+Consumer 0
+Consumer 3
+Consumer 2: topic=test_topic_1 partition=2 value=Hello_52 offset=308
+Consumer 2
+Consumer 1
+Consumer 0
+Consumer 0: topic=test_topic_1 partition=0 value=Hello_53 offset=461
+Consumer 3
+Consumer 0
+Consumer 2
+Consumer 1
+Consumer 2: topic=test_topic_1 partition=2 value=Hello_54 offset=309
+Consumer 2
+Consumer 3
+Consumer 0
+Consumer 1
+Consumer 0: topic=test_topic_1 partition=0 value=Hello_55 offset=462
+Consumer 0
+Consumer 2
+Consumer 3
+Consumer 1: topic=test_topic_1 partition=1 value=Hello_56 offset=483
+Consumer 1
+Consumer 0
+Consumer 2
+Consumer 3
+Consumer 2: topic=test_topic_1 partition=2 value=Hello_57 offset=310
+Consumer 2
+Consumer 1
+Consumer 0
+Consumer 3
+Consumer 1: topic=test_topic_1 partition=1 value=Hello_58 offset=484
+Consumer 1
+Consumer 2
+Consumer 0
+Consumer 0: topic=test_topic_1 partition=0 value=Hello_59 offset=463
+Consumer 3
+Consumer 0
+Consumer 1
+Consumer 2
+Consumer 1: topic=test_topic_1 partition=1 value=Hello_60 offset=485
+Consumer 1
+Consumer 3
+Consumer 0
+Consumer 2
+Consumer 2: topic=test_topic_1 partition=2 value=Hello_61 offset=311
+Consumer 2
+Consumer 1
+Consumer 3
+Consumer 0
+Consumer 0: topic=test_topic_1 partition=0 value=Hello_62 offset=464
+Consumer 0
+Consumer 2
+Consumer 1
+Consumer 3
+Consumer 1: topic=test_topic_1 partition=1 value=Hello_63 offset=486
+Consumer 1
+Consumer 0
+Consumer 2
+Consumer 3
+Consumer 0: topic=test_topic_1 partition=0 value=Hello_64 offset=465
+Consumer 0
+Consumer 1
+Consumer 2
+Consumer 2: topic=test_topic_1 partition=2 value=Hello_65 offset=312
+Consumer 3
+Consumer 2
+Consumer 0
+Consumer 1
+Consumer 0: topic=test_topic_1 partition=0 value=Hello_66 offset=466
+Consumer 0
+Consumer 3
+Consumer 2
+Consumer 1
+Consumer 1: topic=test_topic_1 partition=1 value=Hello_67 offset=487
+Consumer 1
+Consumer 0
+Consumer 3
+Consumer 2
+Consumer 2: topic=test_topic_1 partition=2 value=Hello_68 offset=313
+Consumer 2
+Consumer 1
+Consumer 0
+Consumer 3
+Consumer 1: topic=test_topic_1 partition=1 value=Hello_69 offset=488
+Consumer 1
+Consumer 2
+Consumer 0
+Consumer 3
+Consumer 0: topic=test_topic_1 partition=0 value=Hello_70 offset=467
+Consumer 0
+Consumer 1
+Consumer 2
+Consumer 1: topic=test_topic_1 partition=1 value=Hello_71 offset=489
+Consumer 3
+Consumer 1
+Consumer 0
+Consumer 2
+Consumer 0: topic=test_topic_1 partition=0 value=Hello_72 offset=468
+Consumer 0
+Consumer 3
+Consumer 1
+Consumer 2
+Consumer 1: topic=test_topic_1 partition=1 value=Hello_73 offset=490
+Consumer 1
+Consumer 0
+Consumer 3
+Consumer 2: topic=test_topic_1 partition=2 value=Hello_74 offset=314
+Consumer 2
+Consumer 1
+Consumer 0
+Consumer 3
+Consumer 1: topic=test_topic_1 partition=1 value=Hello_75 offset=491
+Consumer 1
+Consumer 2
+Consumer 0
+Consumer 3
+Consumer 2: topic=test_topic_1 partition=2 value=Hello_76 offset=315
+Consumer 2
+Consumer 1
+Consumer 0
+Consumer 1: topic=test_topic_1 partition=1 value=Hello_77 offset=492
+Consumer 3
+Consumer 1
+Consumer 2
+Consumer 0: topic=test_topic_1 partition=0 value=Hello_78 offset=469
+Consumer 0
+Consumer 3
+Consumer 1
+Consumer 2
+Consumer 1: topic=test_topic_1 partition=1 value=Hello_79 offset=493
+Consumer 1
+Consumer 0
+Consumer 3
+Consumer 2
+Consumer 0: topic=test_topic_1 partition=0 value=Hello_80 offset=470
+Consumer 0
+Consumer 1
+Consumer 3
+Consumer 2
+Consumer 2: topic=test_topic_1 partition=2 value=Hello_81 offset=316
+Consumer 2
+Consumer 0
+Consumer 1
+Consumer 3
+Consumer 0: topic=test_topic_1 partition=0 value=Hello_82 offset=471
+Consumer 0
+Consumer 2
+Consumer 1
+Consumer 2: topic=test_topic_1 partition=2 value=Hello_83 offset=317
+Consumer 3
+Consumer 2
+Consumer 0
+Consumer 1
+Consumer 0: topic=test_topic_1 partition=0 value=Hello_84 offset=472
+Consumer 0
+Consumer 3
+Consumer 2
+Consumer 1: topic=test_topic_1 partition=1 value=Hello_85 offset=494
+Consumer 1
+Consumer 0
+Consumer 3
+Consumer 2
+Consumer 0: topic=test_topic_1 partition=0 value=Hello_86 offset=473
+Consumer 0
+Consumer 1
+Consumer 3
+Consumer 2
+Consumer 1: topic=test_topic_1 partition=1 value=Hello_87 offset=495
+Consumer 1
+Consumer 0
+Consumer 3
+Consumer 0: topic=test_topic_1 partition=0 value=Hello_88 offset=474
+Consumer 2
+Consumer 0
+Consumer 1
+Consumer 2: topic=test_topic_1 partition=2 value=Hello_89 offset=318
+Consumer 3
+Consumer 2
+Consumer 0
+Consumer 1
+Consumer 1: topic=test_topic_1 partition=1 value=Hello_90 offset=496
+Consumer 1
+Consumer 3
+Consumer 2
+Consumer 0
+Consumer 0: topic=test_topic_1 partition=0 value=Hello_91 offset=475
+Consumer 0
+Consumer 1
+Consumer 3
+Consumer 2
+Consumer 2: topic=test_topic_1 partition=2 value=Hello_92 offset=319
+Consumer 2
+Consumer 0
+Consumer 1

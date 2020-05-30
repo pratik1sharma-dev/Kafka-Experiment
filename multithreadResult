@@ -1,0 +1,123 @@
+ Task :processResources NO-SOURCE
+> Task :classes
+/Users/pratisharma/personalIdea/Kafka-Experimentation/src/main/java/KafkaConsumerApp.java:15: warning: ArrayUtil is internal proprietary API and may be removed in a future release
+import sun.security.util.ArrayUtil;
+                        ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+> Task :KafkaConsumerApp.main()
+Starting consumer Consumer 0
+Starting consumer Consumer 1
+Starting consumer Consumer 2
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Consumer 0
+Consumer 1
+Consumer 2
+Consumer 0: topic=test_topic_2 partition=1 value=Hello_2700 offset=567
+Consumer 0
+Consumer 1: topic=test_topic_1 partition=2 value=Hello_28 offset=197
+Consumer 2
+Consumer 1
+Consumer 1: topic=test_topic_2 partition=2 value=Hello_2800 offset=180
+Consumer 1
+Consumer 0
+Consumer 0: topic=test_topic_1 partition=1 value=Hello_29 offset=376
+Consumer 0
+Consumer 2
+Consumer 1
+Consumer 1: topic=test_topic_1 partition=2 value=Hello_30 offset=198
+Consumer 1
+Consumer 1: topic=test_topic_2 partition=2 value=Hello_3000 offset=181
+Consumer 0
+Consumer 1
+Consumer 2
+Consumer 0
+Consumer 1
+Consumer 2
+Consumer 1: topic=test_topic_1 partition=2 value=Hello_32 offset=199
+Consumer 0: topic=test_topic_2 partition=1 value=Hello_3200 offset=568
+Consumer 1
+Consumer 0
+Consumer 2
+Consumer 0: topic=test_topic_1 partition=1 value=Hello_33 offset=377
+Consumer 1: topic=test_topic_2 partition=2 value=Hello_3300 offset=182
+Consumer 0
+Consumer 1
+Consumer 0: topic=test_topic_2 partition=1 value=Hello_3400 offset=569
+Consumer 2
+Consumer 0
+Consumer 1
+Consumer 1: topic=test_topic_1 partition=2 value=Hello_35 offset=200
+Consumer 1
+Consumer 2
+Consumer 0
+Consumer 1: topic=test_topic_2 partition=2 value=Hello_3600 offset=183
+Consumer 1
+Consumer 2
+Consumer 0
+Consumer 1: topic=test_topic_1 partition=2 value=Hello_37 offset=201
+Consumer 1
+Consumer 2
+Consumer 0
+Consumer 1: topic=test_topic_2 partition=2 value=Hello_3800 offset=184
+Consumer 1
+Consumer 2
+Consumer 0
+Consumer 0: topic=test_topic_1 partition=1 value=Hello_39 offset=378
+Consumer 0
+Consumer 1
+Consumer 1: topic=test_topic_1 partition=2 value=Hello_40 offset=202
+Consumer 0: topic=test_topic_2 partition=1 value=Hello_4000 offset=570
+Consumer 2
+Consumer 1
+Consumer 0
+Consumer 0: topic=test_topic_1 partition=1 value=Hello_41 offset=379
+Consumer 0
+Consumer 2
+Consumer 1
+Consumer 0: topic=test_topic_2 partition=1 value=Hello_4200 offset=571
+Consumer 0
+Consumer 2
+Consumer 1
+Consumer 0: topic=test_topic_1 partition=1 value=Hello_43 offset=380
+Consumer 0
+Consumer 2
+Consumer 1
+Consumer 0: topic=test_topic_2 partition=1 value=Hello_4400 offset=572
+Consumer 0
+Consumer 2
+Consumer 1
+Consumer 1: topic=test_topic_1 partition=2 value=Hello_45 offset=203
+Consumer 1
+Consumer 1: topic=test_topic_2 partition=2 value=Hello_4500 offset=185
+Consumer 1
+Consumer 0
+Consumer 0: topic=test_topic_1 partition=1 value=Hello_46 offset=381
+Consumer 2
+Consumer 0
+Consumer 0: topic=test_topic_2 partition=1 value=Hello_4600 offset=573
+Consumer 0
+Consumer 1
+Consumer 2
+Consumer 0
+Consumer 1
+Consumer 1: topic=test_topic_1 partition=2 value=Hello_48 offset=204
+Consumer 1
+Consumer 1: topic=test_topic_2 partition=2 value=Hello_4800 offset=186
+Consumer 1
+Consumer 2
+Consumer 0
+Consumer 1
+Consumer 2
+Consumer 0
+Consumer 1: topic=test_topic_1 partition=2 value=Hello_50 offset=205
+Consumer 1
+Consumer 1: topic=test_topic_2 partition=2 value=Hello_5000 offset=187
+Consumer 1
+Consumer 2
+Consumer 0
+
